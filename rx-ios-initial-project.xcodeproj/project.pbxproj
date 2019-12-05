@@ -18,7 +18,6 @@
 		85627BA22398FEC400923419 /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA12398FEC400923419 /* BasicCollectionViewCell.swift */; };
 		85627BAB2398FF1200923419 /* Blurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA42398FF1100923419 /* Blurable.swift */; };
 		85627BAC2398FF1200923419 /* DateTimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA52398FF1100923419 /* DateTimeFormatter.swift */; };
-		85627BAD2398FF1200923419 /* TargetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA62398FF1100923419 /* TargetHelper.swift */; };
 		85627BAE2398FF1200923419 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA72398FF1100923419 /* ProgressLoader.swift */; };
 		85627BAF2398FF1200923419 /* Alerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA82398FF1100923419 /* Alerter.swift */; };
 		85627BB02398FF1200923419 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85627BA92398FF1100923419 /* TapticEngine.swift */; };
@@ -66,7 +65,6 @@
 		85627BA12398FEC400923419 /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
 		85627BA42398FF1100923419 /* Blurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blurable.swift; sourceTree = "<group>"; };
 		85627BA52398FF1100923419 /* DateTimeFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeFormatter.swift; sourceTree = "<group>"; };
-		85627BA62398FF1100923419 /* TargetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetHelper.swift; sourceTree = "<group>"; };
 		85627BA72398FF1100923419 /* ProgressLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
 		85627BA82398FF1100923419 /* Alerter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerter.swift; sourceTree = "<group>"; };
 		85627BA92398FF1100923419 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 				85627BAA2398FF1200923419 /* InputFieldType.swift */,
 				85627BA72398FF1100923419 /* ProgressLoader.swift */,
 				85627BA92398FF1100923419 /* TapticEngine.swift */,
-				85627BA62398FF1100923419 /* TargetHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -433,7 +430,6 @@
 				85627BD82399010800923419 /* UIColorExtension.swift in Sources */,
 				85627BBC2399000000923419 /* PushManager.swift in Sources */,
 				85627BBA2398FFB000923419 /* TokenManager.swift in Sources */,
-				85627BAD2398FF1200923419 /* TargetHelper.swift in Sources */,
 				85627BD92399010800923419 /* FileManagerExtension.swift in Sources */,
 				85627BA22398FEC400923419 /* BasicCollectionViewCell.swift in Sources */,
 				85627BE72399036500923419 /* ResponseModel.swift in Sources */,
