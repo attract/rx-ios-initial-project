@@ -82,11 +82,11 @@ All third-party libraries are open-sourced.
 
 In this list there are no frameworks which are used in managers, helpers and extension.
 - `DZNEmptyDataSet` allows to setup customizable views to empty lists;
-- `CCBottomRefreshControl`. Yes, by default iOS doesn't support infinity scrolling. With this framework we can implement this functionallity in our apps;
-- `SKPhotoBrowser` is a simple image viewer. I.e. it allows to view fullsize image after tapping on image thumbnail;
-- `Fabric` and `Crashlytics` allows to send beta versions to testers without TestFlight.
+- `Kingfisher` allows to download and cache images with reactive methods;
+- `RxCocoa` and `RxSwift`;
+- `RxKeyboard` allows to subscribe on keyboard frame changes.
 
-# Requres:
+# Requires:
 - `cocoapods` preinstalled
 
 If you do not have cocoapods installed, then just run this command in terminal:
