@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P5E-5g-exc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pop Up-->
+        <scene sceneID="aXV-E5-laW">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="P5E-5g-exc" customClass="PopUp" customModule="CRM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="071-CD-K2y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bk-5P-A99">
+                                <rect key="frame" x="0.0" y="502" width="414" height="424"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PcM-RX-X04">
+                                        <rect key="frame" x="154.5" y="62" width="105" height="105"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PcM-RX-X04" secondAttribute="height" multiplier="1:1" id="NmS-eA-22P"/>
+                                            <constraint firstAttribute="height" constant="105" id="ddw-sF-jLH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaw-Jx-q8R" customClass="LottieView" customModule="CRM" customModuleProvider="target">
+                                        <rect key="frame" x="134.5" y="42" width="145" height="145"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qaw-Jx-q8R" secondAttribute="height" multiplier="1:1" id="zUc-Ey-lnb"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="wIK-RD-mOF">
+                                        <rect key="frame" x="50" y="217" width="314" height="137"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZB-wJ-9EV">
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="18"/>
+                                                <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XnL-aq-Ule">
+                                                <rect key="frame" x="0.0" y="40" width="314" height="97"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWV-Bp-GxI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="45"/>
+                                                        <color key="backgroundColor" name="AppActiveElements"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="RcD-VO-u0e"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="17"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTp-CI-7xU">
+                                                        <rect key="frame" x="0.0" y="65" width="314" height="32"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="17"/>
+                                                        <color key="tintColor" name="AppActiveElements"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" name="AppActiveElements"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMj-E1-sNg">
+                                        <rect key="frame" x="140" y="16" width="134" height="6"/>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="6" id="Hat-fV-Bmw"/>
+                                            <constraint firstAttribute="width" constant="134" id="cL6-FA-8Ed"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="wIK-RD-mOF" firstAttribute="leading" secondItem="9Bk-5P-A99" secondAttribute="leading" constant="50" id="0Bd-56-fSg"/>
+                                    <constraint firstAttribute="trailing" secondItem="wIK-RD-mOF" secondAttribute="trailing" constant="50" id="6aG-yv-xDH"/>
+                                    <constraint firstItem="JMj-E1-sNg" firstAttribute="centerX" secondItem="9Bk-5P-A99" secondAttribute="centerX" id="9ct-R3-QdS"/>
+                                    <constraint firstItem="qaw-Jx-q8R" firstAttribute="top" secondItem="PcM-RX-X04" secondAttribute="top" constant="-20" id="HC3-1Z-EWf"/>
+                                    <constraint firstItem="qaw-Jx-q8R" firstAttribute="bottom" secondItem="PcM-RX-X04" secondAttribute="bottom" constant="20" id="VSv-PF-4HL"/>
+                                    <constraint firstItem="qaw-Jx-q8R" firstAttribute="centerX" secondItem="9Bk-5P-A99" secondAttribute="centerX" id="WIs-x7-x2j"/>
+                                    <constraint firstItem="PcM-RX-X04" firstAttribute="top" secondItem="JMj-E1-sNg" secondAttribute="bottom" constant="40" id="dQU-3O-ljD"/>
+                                    <constraint firstItem="wIK-RD-mOF" firstAttribute="top" secondItem="PcM-RX-X04" secondAttribute="bottom" constant="50" id="nrV-7l-z7j"/>
+                                    <constraint firstItem="PcM-RX-X04" firstAttribute="centerX" secondItem="9Bk-5P-A99" secondAttribute="centerX" id="sqm-Da-dGb"/>
+                                    <constraint firstItem="JMj-E1-sNg" firstAttribute="top" secondItem="9Bk-5P-A99" secondAttribute="top" constant="16" id="wEF-Fl-9xU"/>
+                                    <constraint firstAttribute="bottom" secondItem="wIK-RD-mOF" secondAttribute="bottom" constant="70" id="yQD-p3-0NC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58823529411764708" blue="0.53333333333333333" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Bk-5P-A99" firstAttribute="top" relation="greaterThanOrEqual" secondItem="x8Z-rz-wIk" secondAttribute="centerY" constant="-180" id="HSS-mE-k6K"/>
+                            <constraint firstAttribute="bottom" secondItem="9Bk-5P-A99" secondAttribute="bottom" constant="-30" id="K94-Ka-jhb"/>
+                            <constraint firstItem="9Bk-5P-A99" firstAttribute="leading" secondItem="x8Z-rz-wIk" secondAttribute="leading" id="Qso-eS-uPv"/>
+                            <constraint firstItem="x8Z-rz-wIk" firstAttribute="trailing" secondItem="9Bk-5P-A99" secondAttribute="trailing" id="hnr-JZ-9ph"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x8Z-rz-wIk"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomConstraint" destination="K94-Ka-jhb" id="Atm-1c-30u"/>
+                        <outlet property="firstButton" destination="gWV-Bp-GxI" id="oYd-SU-AD8"/>
+                        <outlet property="holdView" destination="JMj-E1-sNg" id="gDl-kx-gZL"/>
+                        <outlet property="lottieView" destination="qaw-Jx-q8R" id="U9g-kR-F3a"/>
+                        <outlet property="popUpImage" destination="PcM-RX-X04" id="Fmk-bW-8TA"/>
+                        <outlet property="popUpText" destination="pZB-wJ-9EV" id="C7q-aT-xfs"/>
+                        <outlet property="popUpView" destination="9Bk-5P-A99" id="XHW-ck-Bue"/>
+                        <outlet property="secondButton" destination="fTp-CI-7xU" id="jua-Xg-V5Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bER-GJ-xRZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AppActiveElements">
+            <color red="0.0" green="0.58823529411764708" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
